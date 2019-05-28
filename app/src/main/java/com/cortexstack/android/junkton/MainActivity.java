@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity {
         public GAdapter(int layoutId, ArrayList<Player> arrayList) {
             this.layoutId = layoutId;
             this.arrayList = arrayList;
-        }2
+        }
 
-2
+
         @NonNull
         @Override
         public GHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
